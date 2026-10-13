@@ -6,6 +6,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello from Jenkins pipeline! 2 + 3 = " + new App().add(2, 3));
+        System.out.println("Hello from Jenkins pipeline, auto-triggered! 2 + 3 = " + new App().add(2, 3));
     }
 }
